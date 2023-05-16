@@ -33,8 +33,8 @@ function showSlides() {
     
 // }
 function moveDownloadWindows() {
-  window.open("../downloadWindows.html");
+  window.open("./../downloadWindows.html");
 }
 function moveDownloadLinux() {
-  window.open("../downloadLinux.html");
+  window.open("./../downloadLinux.html");
 }
