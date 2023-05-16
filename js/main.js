@@ -33,8 +33,8 @@ function showSlides() {
     
 // }
 function moveDownloadWindows() {
-  window.open("https://phmlhuyntrang.github.io/Mediadex/downloadWindows.html");
+  window.open("./Mediadex/downloadWindows.html");
 }
 function moveDownloadLinux() {
-  window.open("Mediadex/downloadLinux.html");
+  window.open("./Mediadex/downloadLinux.html");
 }
