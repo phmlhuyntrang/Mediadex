@@ -33,7 +33,8 @@ function showSlides() {
     
 // }
 function moveDownloadWindows() {
-  window.open("./Mediadex/downloadWindows.html");
+  //window.open("./Mediadex/downloadWindows.html");
+  window.location.href="./Mediadex/downloadWindows.html"
 }
 function moveDownloadLinux() {
   window.open("./Mediadex/downloadLinux.html");
