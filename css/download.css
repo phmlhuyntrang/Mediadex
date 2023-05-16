@@ -1,0 +1,33 @@
+#main-content {
+    margin-top: 120px;
+    padding-left: 160px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+}
+#main-content h2 {
+    color: #e1603a;
+    padding: 16px 0;
+    margin: 0;
+}
+#main-content a {
+    color: #000;
+}
+#main-content pre {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+.btn-content {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error {
+    color: #434242;
+    font-size: 20px;
+}
+.error h2 {
+    font-size: 24px;
+}
