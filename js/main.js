@@ -32,3 +32,9 @@ function showSlides() {
 //     }, 1000);
     
 // }
+function moveDownloadWindows() {
+  window.open("../downloadWindows.html");
+}
+function moveDownloadLinux() {
+  window.open("../downloadLinux.html");
+}
