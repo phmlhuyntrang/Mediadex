@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DownloadLinux</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Ux6UW8VvZ4WN2/7Gzo9jK94MQgkTfT+I2H1bzz+DgOGJ8nPkZfXkCzM9+ahPllJdntYKJr5cVR00tOkRxRzjmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/download.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div id="wrap-download">
+        <!-- begin header -->
+        <div id="header">
+          <div class="navbar">
+            <div class="navbar-brand">
+              <a href="index.html">
+                <span>
+                  Mediadex
+                </span>
+              </a>
+            </div>
+            <div id="top-menu">
+              <ul class="top-menu">
+                <li class="top-menu-item">
+                  <a href="#home">Home</a>
+                </li>
+                <li class="top-menu-item">
+                  <a href="#about">About</a>
+                </li>
+                <li class="top-menu-item">
+                  <a href="#download">Download</a>
+                </li>
+                <li class="top-menu-item">
+                  <a href="#contact">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="main-content" class="container">
+            <h2>Step 1: Cài đặt Python  </h2>
+            <p> 
+                <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>
+            </p>
+            <h2>Step 2: Cài đặt pip </h2>
+            <pre>sudo apt install python3 python3-pip 
+            </pre>
+            <h2>Step 3: Cài đặt thư viện </h2>
+            <pre>Pytube: python3 -m pip install pytube     
+            </pre>
+            <pre>Pyside6: python3 -m pip install pyside6
+            </pre>
+            <pre>PyQt5: python3 -m pip install PyQt5
+            </pre>
+            <pre>youtube_dl: python3 -m pip install youtube_dl
+            </pre>
+            <pre>request: python3 -m pip install request
+            </pre>
+            <h2>Step 4: Download</h2>
+            <p><a href="https://github.com/aoisz/MediaDownloader-PyQt">https://github.com/aoisz/MediaDownloader-PyQt</a></p>
+            <div class="error">
+                <h2>
+                    *Khi gặp lỗi:
+                </h2>
+                <p>Package cho PyQt5: sudo apt-get build-dep qtbase5-dev </p>
+                <p> Libxcb: sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev </p>
+                <p>Run cmd: sudo dpkg --configure -a </p>
+                <p>Sau đó truy cập link: <a href="http://apt.ubuntu.com/p/ubuntu-restricted-extras">http://apt.ubuntu.com/p/ubuntu-restricted-extras</a></p>
+                    
+
+            </div>
+
+        </div>
+        <!-- begin footer -->
+        <div id="footer">
+          <div class="container footer-container">
+            <div class="footer-box infor-logo">
+              <h5>
+                Mediadex
+              </h5>
+              <p>
+                Download videos from Facebook and YouTube
+              </p>
+            </div>
+            <div class="footer-box infor-link">
+              <h5>
+                Useful Link
+              </h5>
+              <ul>
+                <li class="active">
+                  <a href="#home">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#about">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#download">
+                    Download
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-box infor-contact">
+              <h5>
+                Contact
+              </h5>
+              <p>
+                Mai Thanh An
+                3120410019
+              </p>
+              <p>
+                Le Thanh Hai 
+                3120410003
+              </p>
+              <p>
+                Pham Le Huyen Trang 
+                3120410012
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
